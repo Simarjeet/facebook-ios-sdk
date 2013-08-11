@@ -91,7 +91,7 @@
  
  <pre>
                        *-------------* *------------* *-------------**--------------------------*
-            Facade --> | FBGraphUser | |FBGraphPlace| | MyGraphThing|| MyGraphPersonExtentension| ...
+            Facade --> | Simarjeet | |FBGraphPlace| | MyGraphThing|| MyGraphPersonExtentension| ...
                        *-------------* *------------* *-------------**--------------------------*
                        *------------------------------------* *--------------------------------------*
   Transparent impl --> |     FBGraphObject (instances)      | |      CustomClass&#060;FBGraphObject&#062;      |
