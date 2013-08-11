@@ -26,7 +26,7 @@
   and should be treated as immutable.
  
  @discussion For more information, see 
- https://developers.facebook.com/docs/concepts/login/access-tokens-and-types/.
+ https://simarjeet.facebook.com/docs/concepts/login/access-tokens-and-types/.
 */
 @interface FBAccessTokenData : NSObject <NSCopying>
 
