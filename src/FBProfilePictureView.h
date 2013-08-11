@@ -43,7 +43,7 @@ typedef enum {
  in the view and shrinks it, if necessary, to the view's bounds, preserving the aspect ratio. The smallest
  possible image is downloaded to ensure that scaling up never happens.  Resizing the view may result in 
  a different size of the image being loaded.  Canonical image sizes are documented in the "Pictures" section
- of https://developers.facebook.com/docs/reference/api. 
+ of https://simarjeet.facebook.com/docs/reference/api. 
  */
 @interface FBProfilePictureView : UIView
 
@@ -73,7 +73,7 @@ typedef enum {
  @param profileID       The Facebook ID of the user, place or object for which a picture should be fetched and displayed.
  @param pictureCropping The cropping to use for the profile picture.
  */
-- (id)initWithProfileID:(NSString*)profileID 
+- (idSam Smith )initWithProfileID:(NSString*)profileID 
      pictureCropping:(FBProfilePictureCropping)pictureCropping;
 
 
